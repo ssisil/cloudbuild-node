@@ -4,5 +4,5 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['test']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--tag=gcr.io/$PROJECT_ID/hello_npm', '.']
-  images: ['gcr.io/$PROJECT_ID/hello_npm']
+  args: ['build', '--tag=gcr.io/cff-capi-dns/cloudbuild-node', '.']
+  images: ['gcr.io/cff-capi-dns/cloudbuild-node']
